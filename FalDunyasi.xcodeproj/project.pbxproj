@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6F98D7A54D88C1DACF0E040 /* Pods_FalDunyasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF782F8F10F46DDFF0D70667 /* Pods_FalDunyasi.framework */; };
+		BE00DF9C29BB9360000CE998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DF9B29BB9360000CE998 /* AppDelegate.swift */; };
+		BE00DF9E29BB9360000CE998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DF9D29BB9360000CE998 /* SceneDelegate.swift */; };
+		BE00DFA029BB9360000CE998 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DF9F29BB9360000CE998 /* SplashVC.swift */; };
+		BE00DFA529BB9361000CE998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE00DFA429BB9361000CE998 /* Assets.xcassets */; };
+		BE00DFB229BB9AFD000CE998 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFB129BB9AFD000CE998 /* HomeVC.swift */; };
+		BE00DFB429BD0DD8000CE998 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFB329BD0DD8000CE998 /* DetailVC.swift */; };
+		BE00DFB629BD0DEF000CE998 /* FortuneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFB529BD0DEF000CE998 /* FortuneVC.swift */; };
+		BE00DFB829BD11A4000CE998 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFB729BD11A4000CE998 /* Checkbox.swift */; };
+		BE00DFBA29BD16B3000CE998 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE00DFB929BD16B3000CE998 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DE1D7785365229D9027603D /* Pods-FalDunyasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalDunyasi.release.xcconfig"; path = "Target Support Files/Pods-FalDunyasi/Pods-FalDunyasi.release.xcconfig"; sourceTree = "<group>"; };
+		BE00DF9829BB9360000CE998 /* FalDunyasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalDunyasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE00DF9B29BB9360000CE998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE00DF9D29BB9360000CE998 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE00DF9F29BB9360000CE998 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		BE00DFA429BB9361000CE998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE00DFA929BB9361000CE998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE00DFB129BB9AFD000CE998 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BE00DFB329BD0DD8000CE998 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		BE00DFB529BD0DEF000CE998 /* FortuneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneVC.swift; sourceTree = "<group>"; };
+		BE00DFB729BD11A4000CE998 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		BE00DFB929BD16B3000CE998 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE00DFBB29BD16C1000CE998 /* FalDunyasi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FalDunyasi.entitlements; sourceTree = "<group>"; };
+		CF782F8F10F46DDFF0D70667 /* Pods_FalDunyasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FalDunyasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CC06B8A0C1C50225FD11A3 /* Pods-FalDunyasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalDunyasi.debug.xcconfig"; path = "Target Support Files/Pods-FalDunyasi/Pods-FalDunyasi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE00DF9529BB9360000CE998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F98D7A54D88C1DACF0E040 /* Pods_FalDunyasi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE61B136E012D6BAD7A1FFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4CC06B8A0C1C50225FD11A3 /* Pods-FalDunyasi.debug.xcconfig */,
+				6DE1D7785365229D9027603D /* Pods-FalDunyasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A728F2C9E4140BA8F7A28F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF782F8F10F46DDFF0D70667 /* Pods_FalDunyasi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE00DF8F29BB9360000CE998 = {
+			isa = PBXGroup;
+			children = (
+				BE00DF9A29BB9360000CE998 /* FalDunyasi */,
+				BE00DF9929BB9360000CE998 /* Products */,
+				5BE61B136E012D6BAD7A1FFA /* Pods */,
+				7A728F2C9E4140BA8F7A28F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE00DF9929BB9360000CE998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE00DF9829BB9360000CE998 /* FalDunyasi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE00DF9A29BB9360000CE998 /* FalDunyasi */ = {
+			isa = PBXGroup;
+			children = (
+				BE00DFBB29BD16C1000CE998 /* FalDunyasi.entitlements */,
+				BE00DFB929BD16B3000CE998 /* GoogleService-Info.plist */,
+				BE00DFAF29BB946E000CE998 /* Core */,
+				BE00DF9F29BB9360000CE998 /* SplashVC.swift */,
+				BE00DFB029BB9AEF000CE998 /* Home */,
+				BE00DFA429BB9361000CE998 /* Assets.xcassets */,
+				BE00DFA929BB9361000CE998 /* Info.plist */,
+				BE00DFB329BD0DD8000CE998 /* DetailVC.swift */,
+				BE00DFB529BD0DEF000CE998 /* FortuneVC.swift */,
+				BE00DFB729BD11A4000CE998 /* Checkbox.swift */,
+			);
+			path = FalDunyasi;
+			sourceTree = "<group>";
+		};
+		BE00DFAF29BB946E000CE998 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BE00DF9D29BB9360000CE998 /* SceneDelegate.swift */,
+				BE00DF9B29BB9360000CE998 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BE00DFB029BB9AEF000CE998 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BE00DFB129BB9AFD000CE998 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE00DF9729BB9360000CE998 /* FalDunyasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE00DFAC29BB9361000CE998 /* Build configuration list for PBXNativeTarget "FalDunyasi" */;
+			buildPhases = (
+				CC584A3F11992DDA6F637D3D /* [CP] Check Pods Manifest.lock */,
+				BE00DF9429BB9360000CE998 /* Sources */,
+				BE00DF9529BB9360000CE998 /* Frameworks */,
+				BE00DF9629BB9360000CE998 /* Resources */,
+				8ED83705E59DA168FEF4A04D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FalDunyasi;
+			productName = FalDunyasi;
+			productReference = BE00DF9829BB9360000CE998 /* FalDunyasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE00DF9029BB9360000CE998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BE00DF9729BB9360000CE998 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BE00DF9329BB9360000CE998 /* Build configuration list for PBXProject "FalDunyasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE00DF8F29BB9360000CE998;
+			productRefGroup = BE00DF9929BB9360000CE998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE00DF9729BB9360000CE998 /* FalDunyasi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE00DF9629BB9360000CE998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE00DFA529BB9361000CE998 /* Assets.xcassets in Resources */,
+				BE00DFBA29BD16B3000CE998 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8ED83705E59DA168FEF4A04D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FalDunyasi/Pods-FalDunyasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FalDunyasi/Pods-FalDunyasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FalDunyasi/Pods-FalDunyasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC584A3F11992DDA6F637D3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FalDunyasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE00DF9429BB9360000CE998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE00DFB429BD0DD8000CE998 /* DetailVC.swift in Sources */,
+				BE00DFA029BB9360000CE998 /* SplashVC.swift in Sources */,
+				BE00DFB229BB9AFD000CE998 /* HomeVC.swift in Sources */,
+				BE00DF9C29BB9360000CE998 /* AppDelegate.swift in Sources */,
+				BE00DFB829BD11A4000CE998 /* Checkbox.swift in Sources */,
+				BE00DFB629BD0DEF000CE998 /* FortuneVC.swift in Sources */,
+				BE00DF9E29BB9360000CE998 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE00DFAA29BB9361000CE998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE00DFAB29BB9361000CE998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE00DFAD29BB9361000CE998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CC06B8A0C1C50225FD11A3 /* Pods-FalDunyasi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FalDunyasi/FalDunyasi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q395RS78P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FalDunyasi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fal Dünyası";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emir.FalDunyasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE00DFAE29BB9361000CE998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE1D7785365229D9027603D /* Pods-FalDunyasi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FalDunyasi/FalDunyasi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q395RS78P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FalDunyasi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fal Dünyası";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emir.FalDunyasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE00DF9329BB9360000CE998 /* Build configuration list for PBXProject "FalDunyasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE00DFAA29BB9361000CE998 /* Debug */,
+				BE00DFAB29BB9361000CE998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE00DFAC29BB9361000CE998 /* Build configuration list for PBXNativeTarget "FalDunyasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE00DFAD29BB9361000CE998 /* Debug */,
+				BE00DFAE29BB9361000CE998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE00DF9029BB9360000CE998 /* Project object */;
+}
