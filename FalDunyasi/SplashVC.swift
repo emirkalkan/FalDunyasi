@@ -20,11 +20,34 @@ class SplashVC: UIViewController {
         super.viewDidLoad()
         
         setupView()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
-            let vc = HomeVC()
-            vc.modalPresentationStyle = .fullScreen
-            vc.modalTransitionStyle = .coverVertical
-            self.present(vc, animated: true)
+        let noti = UserDefaults.standard.bool(forKey: "notification")
+        if NetworkMonitor.shared.isConnected {
+            print("connected.")
+            let userName = UserDefaults.standard.string(forKey: "name")
+            if noti {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                    let vc = FortuneVC(name: userName!)
+                    vc.modalPresentationStyle = .fullScreen
+                    vc.modalTransitionStyle = .coverVertical
+                    self.present(vc, animated: true)
+                }
+            } else {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+                    let vc = HomeVC()
+                    vc.modalPresentationStyle = .fullScreen
+                    vc.modalTransitionStyle = .coverVertical
+                    self.present(vc, animated: true)
+                }
+            }
+            
+        } else {
+            print("disconnected.")
+            DispatchQueue.main.async {
+                let alert = UIAlertController(title: "Hata", message: "Lütfen internet bağlantınız kontrol ediniz.", preferredStyle: UIAlertController.Style.alert)
+                let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+                alert.addAction(okButton)
+                self.present(alert, animated: true, completion: nil)
+            }
         }
     }
 

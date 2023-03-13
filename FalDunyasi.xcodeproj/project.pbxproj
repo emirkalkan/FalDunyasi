@@ -16,7 +16,11 @@
 		BE00DFB429BD0DD8000CE998 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFB329BD0DD8000CE998 /* DetailVC.swift */; };
 		BE00DFB629BD0DEF000CE998 /* FortuneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFB529BD0DEF000CE998 /* FortuneVC.swift */; };
 		BE00DFB829BD11A4000CE998 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFB729BD11A4000CE998 /* Checkbox.swift */; };
-		BE00DFBA29BD16B3000CE998 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE00DFB929BD16B3000CE998 /* GoogleService-Info.plist */; };
+		BE00DFBD29BE39C0000CE998 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE00DFBC29BE39C0000CE998 /* GoogleService-Info.plist */; };
+		BE00DFBF29BE42B0000CE998 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFBE29BE42B0000CE998 /* NetworkMonitor.swift */; };
+		BE00DFC129BE8FEB000CE998 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE00DFC029BE8FEB000CE998 /* StoreKit.framework */; };
+		BE00DFC329BE9283000CE998 /* AppInPurchaseValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFC229BE9283000CE998 /* AppInPurchaseValues.swift */; };
+		BE00DFC529BE92EB000CE998 /* AppInPurchaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00DFC429BE92EB000CE998 /* AppInPurchaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +35,12 @@
 		BE00DFB329BD0DD8000CE998 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		BE00DFB529BD0DEF000CE998 /* FortuneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneVC.swift; sourceTree = "<group>"; };
 		BE00DFB729BD11A4000CE998 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
-		BE00DFB929BD16B3000CE998 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BE00DFBB29BD16C1000CE998 /* FalDunyasi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FalDunyasi.entitlements; sourceTree = "<group>"; };
+		BE00DFBC29BE39C0000CE998 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE00DFBE29BE42B0000CE998 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		BE00DFC029BE8FEB000CE998 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BE00DFC229BE9283000CE998 /* AppInPurchaseValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInPurchaseValues.swift; sourceTree = "<group>"; };
+		BE00DFC429BE92EB000CE998 /* AppInPurchaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInPurchaseHelper.swift; sourceTree = "<group>"; };
 		CF782F8F10F46DDFF0D70667 /* Pods_FalDunyasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FalDunyasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CC06B8A0C1C50225FD11A3 /* Pods-FalDunyasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FalDunyasi.debug.xcconfig"; path = "Target Support Files/Pods-FalDunyasi/Pods-FalDunyasi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F98D7A54D88C1DACF0E040 /* Pods_FalDunyasi.framework in Frameworks */,
+				BE00DFC129BE8FEB000CE998 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,7 @@
 		7A728F2C9E4140BA8F7A28F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE00DFC029BE8FEB000CE998 /* StoreKit.framework */,
 				CF782F8F10F46DDFF0D70667 /* Pods_FalDunyasi.framework */,
 			);
 			name = Frameworks;
@@ -87,8 +97,8 @@
 		BE00DF9A29BB9360000CE998 /* FalDunyasi */ = {
 			isa = PBXGroup;
 			children = (
+				BE00DFBC29BE39C0000CE998 /* GoogleService-Info.plist */,
 				BE00DFBB29BD16C1000CE998 /* FalDunyasi.entitlements */,
-				BE00DFB929BD16B3000CE998 /* GoogleService-Info.plist */,
 				BE00DFAF29BB946E000CE998 /* Core */,
 				BE00DF9F29BB9360000CE998 /* SplashVC.swift */,
 				BE00DFB029BB9AEF000CE998 /* Home */,
@@ -97,6 +107,8 @@
 				BE00DFB329BD0DD8000CE998 /* DetailVC.swift */,
 				BE00DFB529BD0DEF000CE998 /* FortuneVC.swift */,
 				BE00DFB729BD11A4000CE998 /* Checkbox.swift */,
+				BE00DFBE29BE42B0000CE998 /* NetworkMonitor.swift */,
+				BE00DFC629BE92EE000CE998 /* AppInPurchase */,
 			);
 			path = FalDunyasi;
 			sourceTree = "<group>";
@@ -116,6 +128,15 @@
 				BE00DFB129BB9AFD000CE998 /* HomeVC.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		BE00DFC629BE92EE000CE998 /* AppInPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				BE00DFC229BE9283000CE998 /* AppInPurchaseValues.swift */,
+				BE00DFC429BE92EB000CE998 /* AppInPurchaseHelper.swift */,
+			);
+			path = AppInPurchase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE00DFA529BB9361000CE998 /* Assets.xcassets in Resources */,
-				BE00DFBA29BD16B3000CE998 /* GoogleService-Info.plist in Resources */,
+				BE00DFBD29BE39C0000CE998 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE00DFC329BE9283000CE998 /* AppInPurchaseValues.swift in Sources */,
 				BE00DFB429BD0DD8000CE998 /* DetailVC.swift in Sources */,
+				BE00DFBF29BE42B0000CE998 /* NetworkMonitor.swift in Sources */,
+				BE00DFC529BE92EB000CE998 /* AppInPurchaseHelper.swift in Sources */,
 				BE00DFA029BB9360000CE998 /* SplashVC.swift in Sources */,
 				BE00DFB229BB9AFD000CE998 /* HomeVC.swift in Sources */,
 				BE00DF9C29BB9360000CE998 /* AppDelegate.swift in Sources */,
@@ -367,7 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FalDunyasi/FalDunyasi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 5Q395RS78P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FalDunyasi/Info.plist;
@@ -377,7 +401,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,9 +409,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emir.FalDunyasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -399,7 +426,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FalDunyasi/FalDunyasi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 5Q395RS78P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FalDunyasi/Info.plist;
@@ -409,7 +436,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,9 +444,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emir.FalDunyasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
